@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="421a1fd4-49a7-4c3a-a928-6b87be359dba" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2054/PublicacaoService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PublicacaoService.xsd" MetadataType="Schema" ID="31a71de4-166a-4288-9fe5-b9c28a2de0dd" SourceId="1" SourceUrl="http://localhost:2054/PublicacaoService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PublicacaoService.wsdl" MetadataType="Wsdl" ID="37759f9c-4cad-4b19-8577-1ca8ec4aa92d" SourceId="1" SourceUrl="http://localhost:2054/PublicacaoService.svc?wsdl" />
+    <MetadataFile FileName="PublicacaoService.disco" MetadataType="Disco" ID="1fc243d5-0ebc-4261-ab24-275f7c42ed05" SourceId="1" SourceUrl="http://localhost:2054/PublicacaoService.svc?disco" />
+    <MetadataFile FileName="PublicacaoService1.xsd" MetadataType="Schema" ID="7dd6d184-ba75-4ef7-a7c2-5156d2d72cb2" SourceId="1" SourceUrl="http://localhost:2054/PublicacaoService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PublicacaoService2.xsd" MetadataType="Schema" ID="974610b7-84c7-47a5-bfe4-d35592609c08" SourceId="1" SourceUrl="http://localhost:2054/PublicacaoService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
